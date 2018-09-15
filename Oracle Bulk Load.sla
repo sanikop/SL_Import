@@ -1,0 +1,86 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount",
+    "class_version": 2,
+    "migration_metadata": {
+        "source_org": "ConnectFasterInc"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Oracle Bulk Load"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 50
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 100
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "DATABASE_SPECIFIER_TYPE": {
+                        "value": "Service name"
+                    },
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "XE"
+                    },
+                    "hostname": {
+                        "value": "10.0.0.50"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "oracle.jdbc.OracleDriver"
+                    },
+                    "password": {
+                        "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                        "value": "LOxUt7IoPXa7W6feAyIu1Q+gk7Z9jmOFXKwzd3C1uhF3tR99MJClqToxmwpPlCamMiYK1wvx8bUQn/0/PWZtCz7jhd6YipxS5MZ4eucfle0CDCJlpOREnI58CMFrFg+09Ry0Yw5CQL5x/QorLv8TL8ae0dNJDR1Ut3Nf45mbe3lNThenEZ2dub3frepySV67GWj88k1m+noaNtrpgfxVdz58OdmK2MBbNpEkOfpUm0zNAo1XDDsKDDhnrpAQMbwjqLx9Mi6WCUFGx2GBDSFg1iOc7rcuPpvZOzVHwGMWMT+ncdthdhrafNMLfN1FslKulnq55xHCyxaxNgs1Pz2+2Q=="
+                    },
+                    "portNumber": {
+                        "value": 1521
+                    },
+                    "username": {
+                        "value": "snaplogic"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}

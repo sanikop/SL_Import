@@ -1,0 +1,87 @@
+{
+    "class_id": "com-snaplogic-snap-api-sql-accounts-oraclethindatabaseaccount",
+    "class_version": 2,
+    "migration_metadata": {
+        "source_org": "ConnectFasterInc"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Shankar AWS DB"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "advancedProperties": {
+                "value": {
+                    "acquireIncrement": {
+                        "value": 1
+                    },
+                    "autoCommit": {
+                        "value": true
+                    },
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "checkoutTimeout": {
+                        "value": 10000
+                    },
+                    "fetchSize": {
+                        "value": 10000
+                    },
+                    "idleConnectionTestPeriod": {
+                        "value": 5
+                    },
+                    "maxIdleTime": {
+                        "value": 30
+                    },
+                    "maxPoolSize": {
+                        "value": 50
+                    },
+                    "minPoolSize": {
+                        "value": 0
+                    },
+                    "retryAttempts": {
+                        "value": 0
+                    },
+                    "urlProperties": {
+                        "value": []
+                    }
+                }
+            },
+            "connectionProperties": {
+                "value": {
+                    "DATABASE_SPECIFIER_TYPE": {
+                        "value": "Service name"
+                    },
+                    "JdbcDriversProp": {
+                        "value": []
+                    },
+                    "databaseName": {
+                        "value": "salesora"
+                    },
+                    "hostname": {
+                        "value": "sales-oracle.cwztruwzzvnq.us-east-1.rds.amazonaws.com"
+                    },
+                    "jdbcDriverClass": {
+                        "value": "oracle.jdbc.OracleDriver"
+                    },
+                    "password": {
+                        "fp": "f7c9bca3cdb1d909994d00c87d300e1b5c16ef6881068c031269b72e8ba6d463",
+                        "key": "account-cloud-managed-5592aed995315c0d2e1aaeeb-2015-06-30T14:59:59-654446",
+                        "value": "o8N0bCRoUisV6+nn6oHBecFC72xmKTeWC/0jYyHXR6aEwZMbRxMpRnNNWDnWQqW/KiCW5WtwK1fa/R5IvOI2RkDLeVmo8oapboZHgCj/wJCZolyGLZzyo3JBLdqS2ktiI4d6s0ns6w9XNb4dzbQnyyTEZwY5CxytspVvUuXHPtBO+ugwfQBRREXkRrA7CFD6tu+1tCAkJyR2p12MNy6M81jn+1pfGi40GZshCSsYIAV5NHC0uD9Vxm1zBiAdhKkGBypQPR2lZp45Z2aN5qbOEgmxVeOJWIxgYKv3teRBl5b8Kq3i4huVveuyD0IE/uCykiucBd65ztIVEyVkc/FXYA=="
+                    },
+                    "portNumber": {
+                        "value": 1521
+                    },
+                    "username": {
+                        "value": "salesadmin"
+                    }
+                }
+            }
+        },
+        "view_serial": 100
+    }
+}
